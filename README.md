@@ -4,9 +4,9 @@ This is a Vagrant repo for a TrueNAS box that can be used for basic test/develop
 
 The box is configured with the information below.
 
-**Vagrant Cloud:** [victorbrca/TrueNAS-13.0-U5.3 ](https://app.vagrantup.com/victorbrca/boxes/TrueNAS-13.0-U5.3)
-**Vagrant Box Version:** 0.1.0
-**TrueNAS Version:** TrueNAS-13.0-U5.3.
++ **Vagrant Cloud:** [victorbrca/TrueNAS-13.0-U5.3 ](https://app.vagrantup.com/victorbrca/boxes/TrueNAS-13.0-U5.3)
++ **Vagrant Box Version:** 0.1.0
++ **TrueNAS Version:** TrueNAS-13.0-U5.3.
 
 ### Built-in credentials
 
