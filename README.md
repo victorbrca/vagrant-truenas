@@ -4,11 +4,11 @@ This is a Vagrant repo for a TrueNAS box that can be used for basic test/develop
 
 The box is configured with the information below.
 
-### TrueNAS Version
+**Vagrant Cloud:** [victorbrca/TrueNAS-13.0-U5.3 ](https://app.vagrantup.com/victorbrca/boxes/TrueNAS-13.0-U5.3)
+**Vagrant Box Version:** 0.1.0
+**TrueNAS Version:** TrueNAS-13.0-U5.3.
 
-TrueNAS-13.0-U5.3.
-
-### Default credentials
+### Built-in credentials
 
 + **Admin interface**: root / vagrant
 + **Shell**: root / vagrant
@@ -26,7 +26,9 @@ echo 'vagrant ALL=(ALL) NOPASSWD: ALL' >> /usr/local/etc/sudoers
 
 You can change the IP by providing it in the Vagrantfile:
 
-    truenas.vm.provision :shell, :run => 'always', :inline => "ifconfig em1 inet [private_ip] netmask 255.255.255.0"
+    truenas.vm.provision :shell,
+                         :run => 'always',
+                         :inline => "ifconfig em1 inet [private_ip] netmask 255.255.255.0"
 
 > [!note]
 > The example vagrant file included on this repo uses the variable `private_ip` for the IP
@@ -67,7 +69,7 @@ vagrant init victorbrca/TrueNAS-13.0-U5.3
 vagrant up
 ```
 
-Or in manually adding to a `vagrantfile`:
+Or by manually adding to a Vagrantfile:
 
 ```ruby
 Vagrant.configure("2") do |config|
