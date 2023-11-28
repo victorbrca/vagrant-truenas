@@ -1,4 +1,3 @@
-# https://app.vagrantup.com/ealvarenga/boxes/TrueNAS-SCALE
 # Default credentials
 #   Admin interface: root / vagrant
 #   Console: root / vagrant
